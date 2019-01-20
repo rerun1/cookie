@@ -1,0 +1,937 @@
+/* Akzidenz Grotesk Light*/
+@font-face {
+  font-family: 'akzidenz-grotesk';
+  src : url('../fonts/akzidenz/AkzidGroLig.eot');
+  src : url('../fonts/akzidenz/AkzidGroLig.eot?#iefix') format('eot'),
+        url('../fonts/akzidenz/AkzidGroLig.woff2') format('woff2'),
+        url('../fonts/akzidenz/AkzidGroLig.woff') format('woff'),
+        url('../fonts/akzidenz/AkzidGroLig.ttf') format('truetype');
+  font-weight: 300;
+  font-style: normal;
+  font-variant: normal;
+  font-stretch: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'akzidenz-grotesk';
+  src : url('../fonts/akzidenz/AkzidGroRom.eot');
+  src : url('../fonts/akzidenz/AkzidGroRom.eot?#iefix') format('eot'),
+        url('../fonts/akzidenz/AkzidGroRom.woff2') format('woff2'),
+        url('../fonts/akzidenz/AkzidGroRom.woff') format('woff'),
+        url('../fonts/akzidenz/AkzidGroRom.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+  font-variant: normal;
+  font-stretch: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'akzidenz-grotesk-condensed';
+  src : url('../fonts/akzidenzBertCn/AkzidGroBELigCn.eot');
+  src : url('../fonts/akzidenzBertCn/AkzidGroBELigCn.eot?#iefix') format('eot'),
+        url('../fonts/akzidenzBertCn/AkzidGroBELigCn.woff2') format('woff2'),
+        url('../fonts/akzidenzBertCn/AkzidGroBELigCn.woff') format('woff'),
+        url('../fonts/akzidenzBertCn/AkzidGroBELigCn.ttf') format('truetype');
+  font-weight: 300;
+  font-style: normal;
+  font-variant: normal;
+  font-stretch: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'akzidenz-grotesk-condensed';
+  src : url('../fonts/akzidenzBertCn/AkzidGroBECn.eot');
+  src : url('../fonts/akzidenzBertCn/AkzidGroBECn.eot?#iefix') format('eot'),
+        url('../fonts/akzidenzBertCn/AkzidGroBECn.woff2') format('woff2'),
+        url('../fonts/akzidenzBertCn/AkzidGroBECn.woff') format('woff'),
+        url('../fonts/akzidenzBertCn/AkzidGroBECn.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+  font-variant: normal;
+  font-stretch: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'akzidenz-grotesk-condensed';
+  src : url('../fonts/akzidenzBertCn/AkzidGroBEMdCn.eot');
+  src : url('../fonts/akzidenzBertCn/AkzidGroBEMdCn.eot?#iefix') format('eot'),
+        url('../fonts/akzidenzBertCn/AkzidGroBEMdCn.woff2') format('woff2'),
+        url('../fonts/akzidenzBertCn/AkzidGroBEMdCn.woff') format('woff'),
+        url('../fonts/akzidenzBertCn/AkzidGroBEMdCn.ttf') format('truetype');
+  font-weight: 500;
+  font-style: normal;
+  font-variant: normal;
+  font-stretch: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'akzidenz-grotesk-condensed';
+  src : url('../fonts/akzidenzBertCn/AkzidGroBEMdCnIt.eot');
+  src : url('../fonts/akzidenzBertCn/AkzidGroBEMdCnIt.eot?#iefix') format('eot'),
+        url('../fonts/akzidenzBertCn/AkzidGroBEMdCnIt.woff2') format('woff2'),
+        url('../fonts/akzidenzBertCn/AkzidGroBEMdCnIt.woff') format('woff'),
+        url('../fonts/akzidenzBertCn/AkzidGroBEMdCnIt.ttf') format('truetype');
+  font-weight: 500;
+  font-style: italic;
+  font-variant: normal;
+  font-stretch: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'akzidenz-grotesk-condensed';
+  src : url('../fonts/akzidenzBertCn/AkzidGroBEBolCn.eot');
+  src : url('../fonts/akzidenzBertCn/AkzidGroBEBolCn.eot?#iefix') format('eot'),
+        url('../fonts/akzidenzBertCn/AkzidGroBEBolCn.woff2') format('woff2'),
+        url('../fonts/akzidenzBertCn/AkzidGroBEBolCn.woff') format('woff'),
+        url('../fonts/akzidenzBertCn/AkzidGroBEBolCn.ttf') format('truetype');
+  font-weight: 700;
+  font-style: normal;
+  font-variant: normal;
+  font-stretch: normal;
+  font-display: swap;
+}
+/* end akzidenz */
+/* ITC cheltenham serif*/
+@font-face {
+  font-family: 'cheltenham';
+  src : url('../fonts/cheltenham/CheltBoo.eot');
+  src : url('../fonts/cheltenham/CheltBoo.eot?#iefix') format('eot'),
+        url('../fonts/cheltenham/CheltBoo.woff2') format('woff2'),
+        url('../fonts/cheltenham/CheltBoo.woff') format('woff'),
+        url('../fonts/cheltenham/CheltBoo.ttf') format('truetype');
+  font-weight: 400; /* cheltenham book */
+  font-style: normal;
+  font-variant: normal;
+  font-stretch: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'cheltenham';
+  src : url('../fonts/cheltenham/CheltBooIta.eot');
+  src : url('../fonts/cheltenham/CheltBooIta.eot?#iefix') format('eot'),
+        url('../fonts/cheltenham/CheltBooIta.woff2') format('woff2'),
+        url('../fonts/cheltenham/CheltBooIta.woff') format('woff'),
+        url('../fonts/cheltenham/CheltBooIta.ttf') format('truetype');
+  font-weight: 400; /* cheltenham book italic*/
+  font-style: italic;
+  font-variant: normal;
+  font-stretch: normal;
+  font-display: swap;
+}
+/* begin cheltenham bold and bold italic */
+@font-face {
+  font-family: 'cheltenham';
+  src : url('../fonts/cheltenham/CheltBol.eot');
+  src : url('../fonts/cheltenham/CheltBol.eot?#iefix') format('eot'),
+        url('../fonts/cheltenham/CheltBol.woff2') format('woff2'),
+        url('../fonts/cheltenham/CheltBol.woff') format('woff'),
+        url('../fonts/cheltenham/CheltBol.ttf') format('truetype');
+  font-weight: 700; /* cheltenham bold */
+  font-style: normal;
+  font-variant: normal;
+  font-stretch: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'cheltenham';
+  src : url('../fonts/cheltenham/CheltBolIta.eot');
+  src : url('../fonts/cheltenham/CheltBolIta.eot?#iefix') format('eot'),
+        url('../fonts/cheltenham/CheltBolIta.woff2') format('woff2'),
+        url('../fonts/cheltenham/CheltBolIta.woff') format('woff'),
+        url('../fonts/cheltenham/CheltBolIta.ttf') format('truetype');
+  font-weight: 700; /* cheltenham bold italic*/
+  font-style: italic;
+  font-variant: normal;
+  font-stretch: normal;
+  font-display: swap;
+}
+/* end cheltenham */
+/* freight display light*/
+@font-face {
+  font-family: 'freight-display-pro';
+  src : url('../fonts/freight/freightDisplayLight.eot');
+  src : url('../fonts/freight/freightDisplayLight.eot?#iefix') format('eot'),
+        url('../fonts/freight/freightDisplayLight.woff2') format('woff2'),
+        url('../fonts/freight/freightDisplayLight.woff') format('woff'),
+        url('../fonts/freight/freightDisplayLight.ttf') format('truetype');
+  font-weight: 300; /* freight display light from typekit */
+  font-style: normal;
+  font-variant: normal;
+  font-stretch: normal;
+  font-display: swap;
+}
+/*freight*/
+/* begin roboto */
+@font-face {
+  font-family: 'Roboto';
+  src : url('../fonts/roboto/roboto/Roboto-Thin.eot');
+  src : url('../fonts/roboto/roboto/Roboto-Thin.eot?#iefix') format('eot'),
+        url('../fonts/roboto/roboto/Roboto-Thin.woff2') format('woff2'),
+        url('../fonts/roboto/roboto/Roboto-Thin.woff') format('woff'),
+        url('../fonts/roboto/roboto/Roboto-Thin.ttf') format('truetype');
+  font-weight: 100; /* Roboto thin */
+  font-style: normal;
+  font-variant: normal;
+  font-stretch: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Roboto';
+  src : url('../fonts/roboto/roboto/Roboto-Light.eot');
+  src : url('../fonts/roboto/roboto/Roboto-Light.eot?#iefix') format('eot'),
+        url('../fonts/roboto/roboto/Roboto-Light.woff2') format('woff2'),
+        url('../fonts/roboto/roboto/Roboto-Light.woff') format('woff'),
+        url('../fonts/roboto/roboto/Roboto-Light.ttf') format('truetype');
+  font-weight: 300; /* Roboto light */
+  font-style: normal;
+  font-variant: normal;
+  font-stretch: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Roboto';
+  src : url('../fonts/roboto/roboto/Roboto-LightItalic.eot');
+  src : url('../fonts/roboto/roboto/Roboto-LightItalic.eot?#iefix') format('eot'),
+        url('../fonts/roboto/roboto/Roboto-LightItalic.woff2') format('woff2'),
+        url('../fonts/roboto/roboto/Roboto-LightItalic.woff') format('woff'),
+        url('../fonts/roboto/roboto/Roboto-LightItalic.ttf') format('truetype');
+  font-weight: 300; /* Roboto light italic */
+  font-style: italic;
+  font-variant: normal;
+  font-stretch: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Roboto';
+  src : url('../fonts/roboto/roboto/Roboto-Regular.eot');
+  src : url('../fonts/roboto/roboto/Roboto-Regular.eot?#iefix') format('eot'),
+        url('../fonts/roboto/roboto/Roboto-Regular.woff2') format('woff2'),
+        url('../fonts/roboto/roboto/Roboto-Regular.woff') format('woff'),
+        url('../fonts/roboto/roboto/Roboto-Regular.ttf') format('truetype');
+  font-weight: 400; /* Roboto regular */
+  font-style: normal;
+  font-variant: normal;
+  font-stretch: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Roboto';
+  src : url('../fonts/roboto/roboto/Roboto-Italic.eot');
+  src : url('../fonts/roboto/roboto/Roboto-Italic.eot?#iefix') format('eot'),
+        url('../fonts/roboto/roboto/Roboto-Italic.woff2') format('woff2'),
+        url('../fonts/roboto/roboto/Roboto-Italic.woff') format('woff'),
+        url('../fonts/roboto/roboto/Roboto-Italic.ttf') format('truetype');
+  font-weight: 400; /* Roboto italic */
+  font-style: italic;
+  font-variant: normal;
+  font-stretch: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Roboto';
+  src : url('../fonts/roboto/roboto/Roboto-Bold.eot');
+  src : url('../fonts/roboto/roboto/Roboto-Bold.eot?#iefix') format('eot'),
+        url('../fonts/roboto/roboto/Roboto-Bold.woff2') format('woff2'),
+        url('../fonts/roboto/roboto/Roboto-Bold.woff') format('woff'),
+        url('../fonts/roboto/roboto/Roboto-Bold.ttf') format('truetype');
+  font-weight: 700; /* Roboto bold */
+  font-style: normal;
+  font-variant: normal;
+  font-stretch: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Roboto';
+  src : url('../fonts/roboto/roboto/Roboto-BoldItalic.eot');
+  src : url('../fonts/roboto/roboto/Roboto-BoldItalic.eot?#iefix') format('eot'),
+        url('../fonts/roboto/roboto/Roboto-BoldItalic.woff2') format('woff2'),
+        url('../fonts/roboto/roboto/Roboto-BoldItalic.woff') format('woff'),
+        url('../fonts/roboto/roboto/Roboto-BoldItalic.ttf') format('truetype');
+  font-weight: 700; /* Roboto bold italic */
+  font-style: italic;
+  font-variant: normal;
+  font-stretch: normal;
+  font-display: swap;
+}
+html {
+    -webkit-box-sizing: border-box;
+       -moz-box-sizing: border-box;
+            box-sizing: border-box;
+}
+*,
+*::before,
+*::after {
+    -webkit-box-sizing: inherit;
+       -moz-box-sizing: inherit;
+            box-sizing: inherit;
+}
+body {
+  font-feature-settings: "liga" 1;
+  font-family: 'Roboto', Frutiger, 'Frutiger Linotype', Univers, Calibri, 'Gill Sans',
+    'Gill Sans MT', 'Myriad Pro', Myriad, 'DejaVu Sans Condensed',
+    'Liberation Sans', 'Nimbus Sans L', Tahoma, Geneva, 'Helvetica Neue',
+    Helvetica, Arial, sans-serif;
+  font-weight: 100;
+  font-style: normal;
+  font-size: 30px;
+  line-height: 1;
+  color: #5d5e61;
+  margin: 0;
+  padding: 0;
+}
+@supports (font-variant-ligatures: common-ligatures) {
+body {
+  font-feature-settings: normal;
+  font-variant-ligatures: common-ligatures;
+}
+p {
+  margin: 0;
+  padding: 0;
+}
+h1 {
+  margin: 0;
+  padding: 0;
+}
+h3 {
+  font-family: 'cheltenham', 'Palatino Linotype', Palatino, Palladio, 'URW Palladio L',
+    'Book Antiqua', Baskerville, 'Bookman Old Style', 'Bitstream Charter',
+    'Nimbus Roman No9 L', Garamond, 'Apple Garamond', 'ITC Garamond Narrow',
+    'New Century Schoolbook', 'Century Schoolbook', 'Century Schoolbook L',
+    Georgia, serif;
+  font-size: .75em;
+  line-height: 1;
+  font-weight: 400;
+  font-style: italic;
+  letter-spacing: .03em;
+  color: #a3a5a8;
+  margin: .3em 0 0 0;
+  padding: 0;
+}
+ul {
+  font-family: 'akzidenz-grotesk-condensed', Univers, 'Helvetica Neue',
+    Helvetica, Arial, sans-serif;
+  font-size: .6em;
+  font-size: .85em;
+  font-weight: 400;
+  list-style-type: none;
+  margin: 0 .125em;
+  padding: 0;
+}
+ul li {
+  margin: 0;
+  padding: 0;
+}
+li:before {
+  content: "•";
+  font-size: .65em;
+  padding: 0 .5em 0 0em;
+  color: rgba(196,198,200,0.0);
+}
+
+hr {
+  border:none;
+  height: 20px;
+ 	width: 100%;
+	height: 50px;
+	margin-top: 0;
+	border-bottom: 3px solid #c4c6c8;
+	box-shadow: 0 20px 20px -20px #a3a5a8;
+  margin: -50px auto 10px;
+  position: fixed;
+  top: 5em;
+  left: 0;
+  z-index: 300;
+}
+.navWrapper {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 5em;
+  background-color: #fff;
+  z-index: 400;
+}
+.logoTagline {
+  float: left;
+  width: 50%;
+  margin: .5em 0 0 0;
+  padding: 0 0 0 1.5em;
+}
+.logoTagline svg {
+  width: 95%;
+}
+.smallShow {
+  display: none;
+}
+.logoTagline::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+.logoTaglineSmall {
+  display: none;
+}
+.search {
+  float: right;
+  width: 50%;
+}
+.search img {
+  width: 37%;
+  position: fixed;
+  top:-.75em;
+  right:0;
+}
+.search::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+.searchSmall {
+  display: none;
+}
+.searchBox {
+  position: fixed;
+  top: 1em;
+  right: 9.5%;
+  width: 22%;
+  height: 1.5em;
+  border: 1px solid #a3a5a8;
+  background-color: #fff;
+}
+.searchBoxItems {
+  position: relative;
+  width: 100%;
+  height: 1.5em;
+}
+.searchBoxItems p {
+  height: 1.5em;
+  font-family: 'Roboto', Frutiger, 'Frutiger Linotype', Univers, Calibri, 'Gill Sans',
+    'Gill Sans MT', 'Myriad Pro', Myriad, 'DejaVu Sans Condensed',
+    'Liberation Sans', 'Nimbus Sans L', Tahoma, Geneva, 'Helvetica Neue',
+    Helvetica, Arial, sans-serif;
+  font-size: .6em;
+  font-weight: 400;
+  font-style: normal;
+  color: #c4c6c8;
+  text-align: left;
+  margin: 0;
+  padding: .5em 0 0 .5em;
+}
+.searchBoxItems svg {
+  float: right;
+  height: 1em;
+  margin: .25em .25em 0 0;
+}
+.searchBoxItems::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+.searchCaption {
+  position: fixed;
+  top: 2.4em;
+  right: 12%;
+  width: 18%;
+}
+.searchCaption h3 {
+  text-align: center;
+  color: #5d5e61;
+}
+.smallReveal {
+  display: none;
+}
+@media only all and (max-width: 1500px) {
+  .smallShow {
+    display: block;
+  }
+  .largeShow {
+    display: none;
+  }
+  .search img {
+    width: 47%;
+  }
+  .searchBox {
+    position: fixed;
+    top: 1em;
+    right: 13%;
+    width: 24%;
+    height: 1.3em;
+  }
+  .searchBox svg {
+    height: .9em;
+    margin: 0;
+    padding: 0;
+  }
+  .searchCaption {
+    position: fixed;
+    top: 2.2em;
+    right: 12%;
+    width: 24%;
+  }
+  .search {
+    display: none;
+  }
+  .searchBox {
+    display: none;
+  }
+  .searchSmall {
+    display: inline-block;
+    float: right;
+    width: 50%;
+  }
+  .searchSmall::after {
+    content: "";
+    display: block;
+    clear: both;
+  }
+  .searchBoxSmall {
+    position: fixed;
+    top: 1em;
+    right: 1em;
+    width: 35%;
+    height: 1.5em;
+    border: 1px solid #a3a5a8;
+    background-color: #fff;
+  }
+  .searchBoxItemsSmall {
+    position: relative;
+    width: 100%;
+    height: 1.5em;
+  }
+  .searchBoxItemsSmall p {
+    height: 1.5em;
+    font-family: 'Roboto', Frutiger, 'Frutiger Linotype', Univers, Calibri, 'Gill Sans',
+      'Gill Sans MT', 'Myriad Pro', Myriad, 'DejaVu Sans Condensed',
+      'Liberation Sans', 'Nimbus Sans L', Tahoma, Geneva, 'Helvetica Neue',
+      Helvetica, Arial, sans-serif;
+    font-size: .6em;
+    font-weight: 300;
+    font-style: normal;
+    color: #c4c6c8;
+    text-align: right;
+    margin: 0;
+    padding: .6em 0 0 0;
+  }
+  .searchBoxItemsSmall svg {
+    float: right;
+    height: .9em;
+    margin: .25em .2em 0 .5em;
+  }
+  .searchBoxItemsSmall::after {
+    content: "";
+    display: block;
+    clear: both;
+  }
+}
+@media only all and (max-width: 1105px) {
+  .navWrapper {
+    height: 4.5em;
+    margin:0;
+    padding:0;
+  }
+  hr {
+    top: 4.5em;
+  }
+  .search img {
+    width: 50%;
+  }
+  .searchBox {
+    position: fixed;
+    top: 1em;
+    right: 13%;
+    width: 26%;
+    height: 1.3em;
+  }
+  .searchBoxItems svg {
+    height: .9em;
+    margin: -.75em .25em 0 0;
+  }
+  .smallReveal {
+    display: block;
+  }
+}
+
+@media only all and (max-width: 976px) {
+  .navWrapper {
+    height: 3.5em;
+    margin:0;
+    padding:0;
+  }
+  hr {
+    top: 3.5em;
+  }
+  .logoTagline {
+    display: none;
+  }
+  .logoTaglineSmall {
+    display: block;
+    float:left;
+    width: 50%;
+    margin: .5em 0 .5em 1em;
+  }
+  .logoTaglineSmall svg {
+    width: 100%;
+  }
+  .logoTaglineSmall h3 {
+    font-size: .6em;
+    margin:0;
+    padding:.25em 0 0 0;
+  }
+  .logoTaglineSmall::after {
+    content: "";
+    display: block;
+    clear: right;
+  }
+}
+@media only all and (max-width: 635px) {
+  .navWrapper {
+    height: 5.5em;
+  }
+  hr {
+    top: 5.5em;
+  }
+  .logoTagline {
+    display: none;
+  }
+  .logoTaglineSmall {
+    display: block;
+    float: none;
+    width: 100%;
+    margin: .65em 1em .5em 1em;
+  }
+  .logoTaglineSmall svg {
+    width: 85%;
+  }
+  .logoTaglineSmall h3 {
+    font-size: .6em;
+    margin:0;
+    padding:0;
+  }
+  .logoTaglineSmall::after {
+    content: "";
+    display: block;
+    clear: right;
+  }
+  .search {
+    display: none;
+  }
+  .searchBox {
+    display: none;
+  }
+  .searchSmall {
+    display: block;
+    float: none;
+    position: relative;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+  }
+  .searchSmall::after {
+    content: "";
+    display: block;
+    clear: both;
+  }
+  .searchBoxSmall {
+    position: fixed;
+    top: 3.8em;
+    left: 1em;
+    width: 85%;
+    height: 1.25em;
+    border: 1px solid #a3a5a8;
+    background-color: #fff;
+    margin: 0;
+    padding: 0;
+  }
+  .searchBoxItemsSmall {
+    position: relative;
+    width: 100%;
+    height: 1.25em;
+    margin: 0;
+    padding: 0;
+  }
+  .searchBoxItemsSmall p {
+    height: 1.5em;
+    font-family: 'Roboto', Frutiger, 'Frutiger Linotype', Univers, Calibri, 'Gill Sans',
+      'Gill Sans MT', 'Myriad Pro', Myriad, 'DejaVu Sans Condensed',
+      'Liberation Sans', 'Nimbus Sans L', Tahoma, Geneva, 'Helvetica Neue',
+      Helvetica, Arial, sans-serif;
+    font-size: .6em;
+    font-weight: 300;
+    font-style: normal;
+    color: #c4c6c8;
+    text-align: right;
+    margin: 0;
+    padding: .45em 0 0 0;
+  }
+  .searchBoxItemsSmall svg {
+    float: right;
+    height: .75em;
+    margin: .18em .25em 0 .25em;
+    padding: 0;
+  }
+  .searchBoxItemsSmall::after {
+    content: "";
+    display: block;
+    clear: both;
+  }
+}
+@media only all and (max-width: 400px) {
+  .navWrapper {
+    height: 5em;
+  }
+  hr {
+    top: 5em;
+  }
+  .searchBoxSmall {
+    position: fixed;
+    top: 3.15em;
+    left: 1em;
+    width: 85%;
+    height: 1.25em;
+    border: 1px solid #a3a5a8;
+    background-color: #fff;
+    margin: 0;
+    padding: 0;
+  }
+}
+
+
+
+.recipeWrapper {
+  position:relative;
+  width: 100%;
+  margin: 6.5em 0em 0em 0em;
+  padding: 0;
+  z-index: 200;
+}
+.recipeWrapper img {
+  width: 100%;
+  position: fixed;
+  bottom: -4em;
+  right: -2em;
+  opacity: 0.5;
+}
+.recipe {
+  position: relative;
+  z-index: 400;
+  margin:5.5em 1.5em 0 1.5em;
+  /* padding:5.5em 0 0 0; */
+}
+.recipe h1 {
+  font-family: 'akzidenz-grotesk-condensed', Univers, 'Helvetica Neue',
+    Helvetica, Arial, sans-serif;
+  font-size: 1.65em;
+  line-height: 1;
+  font-variant: normal;
+  font-style: normal;
+  font-weight: 300;
+  letter-spacing: .02em;
+  word-spacing: -.01em;
+  color: #a51305;
+  margin:0;
+}
+.recipe h2 {
+  font-family: 'akzidenz-grotesk-condensed', Univers, 'Helvetica Neue',
+    Helvetica, Arial, sans-serif;
+  font-size: 1em;
+  line-height: 1;
+  font-variant: normal;
+  font-style: normal;
+  font-weight: 300;
+  letter-spacing: .02em;
+  word-spacing: -.01em;
+  color: #a3a5a8;
+  margin:1em 0em .25em 0em;
+}
+.recipe p {
+  font-family: 'akzidenz-grotesk-condensed', Univers, 'Helvetica Neue',
+    Helvetica, Arial, sans-serif;
+  font-size: .6em;
+  font-size: .85em;
+  font-weight: 400;
+  margin: .5em 0em;
+  color: black;
+  text-shadow: 0px 0px 5px white;
+}
+.stats {
+  font-family: 'akzidenz-grotesk-condensed', Univers, 'Helvetica Neue',
+    Helvetica, Arial, sans-serif;
+  font-size: 1em;
+  font-variant-caps: all-small-caps;
+  font-style: normal;
+  font-weight: 300;
+}
+.statsText {
+  font-family: 'akzidenz-grotesk-condensed', Univers, 'Helvetica Neue',
+    Helvetica, Arial, sans-serif;
+  font-size: 1em;
+  font-variant-caps: all-small-caps;
+  font-style: normal;
+  font-weight: 400;
+}
+
+@media only all and (max-width: 320px) {
+  .navWrapper {
+    height: 4em;
+  }
+  hr {
+    top: 4em;
+  }
+  .recipeWrapper img {
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+  }
+  .recipe {
+    margin:4.5em 0 0 0;
+  }
+  .logoTaglineSmall {
+    margin: .5em .5em .5em .75em;
+  }
+  .logoTaglineSmall h3 {
+    font-size: .5em;
+    margin:0;
+    padding:0 .5em 0 0;
+  }
+  .searchBoxSmall {
+    position: fixed;
+    top: 2.5em;
+    left: .75em;
+  }
+}
+
+/* Akzidenz Grotesk  Light and Regular Converted */
+.akzidenz {
+  font-family: 'akzidenz-grotesk', sans-serif;
+  font-variant: normal;
+
+}
+.akzidenzLight {
+  font-style: normal;
+  font-weight: 300;
+  letter-spacing: .02em;
+  word-spacing: -.01em;
+}
+.akzidenzReg {
+  font-style: normal;
+  font-weight: 400;
+  letter-spacing: .02em;
+  word-spacing: -.02em;
+}
+/* Akzidenz Grotesk Condensed Light, Light Italic, Regular, Regular Italic,  Medium and Italic, BoldConverted Dont have all fonts for italic, some faux */
+.akzidenzCon {
+  font-family: 'akzidenz-grotesk-condensed', sans-serif;
+  font-variant: normal;
+}
+.akzidenzLightCon {
+  font-style: normal;
+  font-weight: 300;
+  letter-spacing: .02em;
+  word-spacing: -.01em;
+}
+/*fake no italic for bold,reglight*/
+.akzidenzLightConItalic {
+  font-style: italic;
+  font-weight: 400;
+  letter-spacing: .02em;
+  word-spacing: -.02em;
+}
+.akzidenzRegCon {
+  font-style: normal;
+  font-weight: 400;
+  letter-spacing: .01em;
+}
+.akzidenzRegConItalic {
+  font-style: italic;
+  font-weight: 400;
+  letter-spacing: .01em;
+}
+.akzidenzMedCon {
+  font-style: normal;
+  font-weight: 500;
+  letter-spacing: .02em;
+  word-spacing: -.02em;
+}
+.akzidenzMedConItalic {
+  font-style: italic;
+  font-weight: 500;
+  letter-spacing: .01em;
+}
+.akzidenzBoldCon {
+  font-style: normal;
+  font-weight: 700;
+  letter-spacing: .03em;
+  word-spacing: -.01em;
+}
+/* end akzidenz Condensed */
+/* cheltenham converted */
+.cheltenham {
+  font-family: 'cheltenham', 'Palatino Linotype', Palatino, Palladio, 'URW Palladio L',
+    'Book Antiqua', Baskerville, 'Bookman Old Style', 'Bitstream Charter',
+    'Nimbus Roman No9 L', Garamond, 'Apple Garamond', 'ITC Garamond Narrow',
+    'New Century Schoolbook', 'Century Schoolbook', 'Century Schoolbook L',
+    Georgia, serif;
+  font-variant: normal;
+}
+.cheltenhamBook {
+  font-style: normal;
+  font-weight: 400;
+}
+.cheltenhamBookItalic {
+  font-style: italic;
+  font-weight: 400;
+}
+.cheltenhamBold {
+  font-style: normal;
+  font-weight: 700;
+}
+.cheltenhamBoldItalic {
+  font-style: italic;
+  font-weight: 700;
+}
+/* end cheltenham */
+/* freight display */
+.freightDisplay {
+  font-family: 'freight-display-pro', serif;
+  font-variant: normal;
+}
+.freightDisplayLight {
+  font-style: normal;
+  font-weight: 300;
+}
+/*endFreight*/
+/* roboto light regular and bold with italic downloaded from google */
+.roboto {
+    font-family: 'Roboto', Frutiger, 'Frutiger Linotype', Univers, Calibri, 'Gill Sans',
+      'Gill Sans MT', 'Myriad Pro', Myriad, 'DejaVu Sans Condensed',
+      'Liberation Sans', 'Nimbus Sans L', Tahoma, Geneva, 'Helvetica Neue',
+      Helvetica, Arial, sans-serif;
+  font-variant: normal;
+  line-height: 1.35;
+}
+.robotoLight {
+  font-style: normal;
+  font-weight: 300;
+}
+.robotoLightItalic {
+  font-style: italic;
+  font-weight: 300;
+}
+.robotoReg {
+  font-style: normal;
+  font-weight: 400;
+}
+.robotoRegItalic {
+  font-style: italic;
+  font-weight: 400;
+}
+.robotoBold {
+  font-style: normal;
+  font-weight: 700;
+}
+.robotoBoldItalic {
+  font-style: italic;
+  font-weight: 700;
+}
+/* end roboto */
